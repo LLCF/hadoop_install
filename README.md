@@ -17,3 +17,7 @@ protobuf-compiler
 download Hadoop
 
 mvn clean package -Pdist,native -DskipTests -Dtar
+
+
+#$JAVA_HOME
+etc/hadoop/hadoop-env.sh
